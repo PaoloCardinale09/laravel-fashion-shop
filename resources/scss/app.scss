@@ -1,0 +1,16 @@
+@import '~bootstrap/scss/bootstrap';
+
+.logo-cont {
+    max-height: 50px;
+    overflow: hidden;
+        img {
+            height: 50px;
+        }
+}
+
+.img-cont {
+    img {
+        object-fit: cover;
+        object-position: center;
+    }
+}
